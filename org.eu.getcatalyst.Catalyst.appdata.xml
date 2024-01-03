@@ -17,11 +17,11 @@
   <launchable type="desktop-id">org.eu.getcatalyst.Catalyst.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://user-images.githubusercontent.com/92550746/213339204-d0ab12ec-cbb8-46f2-bea6-b9df97202b56.png</image>
+      <image>https://github.com/CatalystDevOrg/Catalyst/assets/92550746/2ef60866-f851-41bb-9659-27b7779e7d3c</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="3.5.4" date="2023-10-07"/>
+    <release version="3.5.4" date="2023-10-07"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.5.4</url></release>
   </releases>
   <url type="homepage">https://getcatalyst.eu.org/</url>
   <url type="bugtracker">https://github.com/CatalystDevOrg/Catalyst/issues</url>
