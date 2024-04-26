@@ -39,8 +39,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.6.0/catalyst3_3.6.0_amd64.deb",
-          "sha256": "5190de4f9ec46f8c80d6e953b0b9683be91ef1b9c635d81b0198ef60b24dd16a",
+          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.6.1/catalyst3_3.6.1_amd64.deb",
+          "sha256": "1c24e8762d93074977e62036593069005307cdb0275313d94c5b82042ce7f9ea",
           "dest-filename": "catalyst.deb"
         },
         {
