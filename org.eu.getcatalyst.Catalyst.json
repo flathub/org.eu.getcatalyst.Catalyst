@@ -49,7 +49,7 @@
         },
         {
           "commands": [
-            "zypak-wrapper /app/bin/catalyst --ozone-platform-hint=auto"
+            "zypak-wrapper /app/bin/catalyst3 --ozone-platform-hint=auto"
           ],
           "dest-filename": "run.sh",
           "type": "script"
