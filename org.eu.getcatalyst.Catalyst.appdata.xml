@@ -18,14 +18,16 @@
   <screenshots>
     <screenshot type="default">
       <image>https://github.com/CatalystDevOrg/Catalyst/assets/92550746/2ef60866-f851-41bb-9659-27b7779e7d3c</image>
+      <image>https://github.com/CatalystDevOrg/Catalyst/assets/92550746/7349226a-41a6-48bb-9302-63ed8082922c</image>
+      <image>https://github.com/CatalystDevOrg/Catalyst/assets/92550746/bf3fd063-639e-4130-9d49-4d01ac521cf2</image>
     </screenshot>
   </screenshots>
   <releases>
-    <release version="3.6.0" date="2024-04-26"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.6.1</url></release>
+    <release version="3.6.1" date="2024-04-26"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.6.1</url></release>
     <release version="3.6.0" date="2024-04-25"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.6.0</url></release>
     <release version="3.5.4" date="2023-10-07"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.5.4</url></release>
   </releases>
-  <url type="homepage">https://getcatalyst.eu.org/</url>
+  <url type="homepage">https://github.com/CatalystDevOrg/Catalyst</url>
   <url type="bugtracker">https://github.com/CatalystDevOrg/Catalyst/issues</url>
   <developer_name>jdev082</developer_name>  
   <content_rating type="oars-1.1"/>
