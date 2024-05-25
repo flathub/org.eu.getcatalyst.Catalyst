@@ -24,7 +24,7 @@
         "tar -xf data.tar.zst",
         "cp -r usr/* /app/",
         "install -Dm644 icon-512x512.png /app/share/icons/hicolor/512x512/apps/org.eu.getcatalyst.Catalyst.png",
-        "mv /app/share/applications/catalyst3.desktop /app/share/applications/org.eu.getcatalyst.Catalyst.desktop",
+        "mv /app/share/applications/catalyst.desktop /app/share/applications/org.eu.getcatalyst.Catalyst.desktop",
         "install -Dm644 org.eu.getcatalyst.Catalyst.appdata.xml /app/share/metainfo/org.eu.getcatalyst.Catalyst.metainfo.xml",
         "desktop-file-edit --set-name \"Catalyst\" ${FLATPAK_DEST}/share/applications/org.eu.getcatalyst.Catalyst.desktop",
         "desktop-file-edit --set-key Exec --set-value \"/app/bin/run.sh\" ${FLATPAK_DEST}/share/applications/org.eu.getcatalyst.Catalyst.desktop",
@@ -39,8 +39,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.6.1/catalyst3_3.6.1_amd64.deb",
-          "sha256": "1c24e8762d93074977e62036593069005307cdb0275313d94c5b82042ce7f9ea",
+          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.8.0/catalyst_3.8.0_amd64.deb",
+          "sha256": "9024037037521d4c313d621a73825e34d1d0a5ef7157b6e966cf275755f9fd76",
           "dest-filename": "catalyst.deb"
         },
         {

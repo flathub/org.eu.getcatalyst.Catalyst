@@ -3,13 +3,12 @@
   <id>org.eu.getcatalyst.Catalyst</id>
   
   <name>Catalyst</name>
-  <summary>A lightweight and user-focused web browser powered by Electron</summary>
+  <summary> A minimal, functional, and customizable user-focused FOSS web browser </summary>
   
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT</project_license>
   
   <description>
-    <p>Catalyst is a lightweight and user-focused web browser powered by Electron.</p>
     <p>Catalyst is designed to be easy to use and provides a minimalistic interface for browsing the web.</p>
     <p>It is also open-source and free to use.</p>
   </description>
