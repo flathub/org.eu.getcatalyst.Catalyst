@@ -26,6 +26,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.8.1" date="2024-05-28"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.8.1</url></release>
     <release version="3.6.1" date="2024-04-26"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.6.1</url></release>
     <release version="3.6.0" date="2024-04-25"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.6.0</url></release>
     <release version="3.5.4" date="2023-10-07"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.5.4</url></release>

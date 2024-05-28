@@ -23,6 +23,7 @@
         "ar x catalyst.deb",
         "tar -xf data.tar.xz",
         "cp -r usr/* /app/",
+        "cp -r opt/* /app/",
         "install -Dm644 icon-512x512.png /app/share/icons/hicolor/512x512/apps/org.eu.getcatalyst.Catalyst.png",
         "mv /app/share/applications/catalyst.desktop /app/share/applications/org.eu.getcatalyst.Catalyst.desktop",
         "install -Dm644 org.eu.getcatalyst.Catalyst.appdata.xml /app/share/metainfo/org.eu.getcatalyst.Catalyst.metainfo.xml",
@@ -39,8 +40,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.8.0/catalyst_3.8.0_amd64.deb",
-          "sha256": "9024037037521d4c313d621a73825e34d1d0a5ef7157b6e966cf275755f9fd76",
+          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.8.1/catalyst_3.8.1_amd64.deb",
+          "sha256": "c270b7b79998ebfc47ed44f124a56540e144de2d2da980be2e1494c8c26478b3",
           "dest-filename": "catalyst.deb"
         },
         {
