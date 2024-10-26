@@ -23,7 +23,7 @@
         "ar x catalyst.deb",
         "tar -xf data.tar.xz",
         "cp -r usr/* /app/",
-        "cp -r opt/* /app/",
+        "cp -r opt/ /app/",
         "install -Dm644 icon-512x512.png /app/share/icons/hicolor/512x512/apps/org.eu.getcatalyst.Catalyst.png",
         "mv /app/share/applications/catalyst.desktop /app/share/applications/org.eu.getcatalyst.Catalyst.desktop",
         "install -Dm644 org.eu.getcatalyst.Catalyst.appdata.xml /app/share/metainfo/org.eu.getcatalyst.Catalyst.metainfo.xml",
@@ -50,7 +50,7 @@
         },
         {
           "commands": [
-            "zypak-wrapper /app/bin/catalyst/catalyst3 --ozone-platform-hint=auto"
+            "zypak-wrapper /app/opt/catalyst/catalyst3 --ozone-platform-hint=auto"
           ],
           "dest-filename": "run.sh",
           "type": "script"
