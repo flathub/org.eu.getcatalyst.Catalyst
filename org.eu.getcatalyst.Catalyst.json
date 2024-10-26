@@ -40,8 +40,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.8.1/catalyst_3.8.1_amd64.deb",
-          "sha256": "c270b7b79998ebfc47ed44f124a56540e144de2d2da980be2e1494c8c26478b3",
+          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.8.1/catalyst_3.8.5_amd64.deb",
+          "sha256": "https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.8.5",
           "dest-filename": "catalyst.deb"
         },
         {
