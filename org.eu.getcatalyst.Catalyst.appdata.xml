@@ -26,11 +26,11 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="3.6.4" date="2024-11-7"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.4</url></release>
-    <release version="3.6.3" date="2024-11-7"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.3</url></release>
-    <release version="3.6.2" date="2024-11-2"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.2</url></release>
-    <release version="3.6.1" date="2024-10-30"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.1</url></release>
-    <release version="3.6.0" date="2024-10-28"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.0</url></release>
+    <release version="3.9.4" date="2024-11-7"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.4</url></release>
+    <release version="3.9.3" date="2024-11-7"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.3</url></release>
+    <release version="3.9.2" date="2024-11-2"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.2</url></release>
+    <release version="3.9.1" date="2024-10-30"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.1</url></release>
+    <release version="3.9.0" date="2024-10-28"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.9.0</url></release>
     <release version="3.8.5" date="2024-10-22"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.8.5</url></release>
     <release version="3.8.1" date="2024-05-28"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.8.1</url></release>
     <release version="3.6.1" date="2024-04-26"><url>https://github.com/CatalystDevOrg/Catalyst/releases/tag/v3.6.1</url></release>
