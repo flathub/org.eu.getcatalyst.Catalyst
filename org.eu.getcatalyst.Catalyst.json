@@ -40,8 +40,8 @@
         },
         {
           "type": "file",
-          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.9.5/catalyst_3.9.5_amd64.deb",
-          "sha512": "3844c35fc34780b3d94d3de7c7f5d3996fcfc06ed8d1bf700ce317260053899e8a145bad6424b92bf1f5b34f7c6568cb365c1b722da9ba7a39e1389f6aeb5336",
+          "url": "https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.9.6/catalyst_3.9.6_amd64.deb",
+          "sha256": "d3a5e2f04d05dd72d5e508bbbca85219374413391d2f6677f68ce2abb32dc8e6",
           "dest-filename": "catalyst.deb"
         },
         {
