@@ -1,12 +1,14 @@
 {
   "app-id": "org.eu.getcatalyst.Catalyst",
   "base": "org.electronjs.Electron2.BaseApp",
-  "base-version": "23.08",
+  "base-version": "25.08",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "23.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "run.sh",
   "separate-locales": false,
+  "rename-desktop-file": "catalyst.desktop",
+  "rename-icon": "icon-512x512",
   "finish-args": [
     "--share=ipc",
     "--share=network",
@@ -24,13 +26,11 @@
         "tar -xf data.tar.xz",
         "cp -r usr/* /app/",
         "cp -r opt/ /app/",
-        "install -Dm644 icon-512x512.png /app/share/icons/hicolor/512x512/apps/org.eu.getcatalyst.Catalyst.png",
-        "mv /app/share/applications/catalyst.desktop /app/share/applications/org.eu.getcatalyst.Catalyst.desktop",
-        "install -Dm644 org.eu.getcatalyst.Catalyst.appdata.xml /app/share/metainfo/org.eu.getcatalyst.Catalyst.metainfo.xml",
-        "desktop-file-edit --set-name \"Catalyst\" ${FLATPAK_DEST}/share/applications/org.eu.getcatalyst.Catalyst.desktop",
-        "desktop-file-edit --set-key Exec --set-value \"/app/bin/run.sh\" ${FLATPAK_DEST}/share/applications/org.eu.getcatalyst.Catalyst.desktop",
-        "desktop-file-edit --set-icon ${FLATPAK_ID} ${FLATPAK_DEST}/share/applications/org.eu.getcatalyst.Catalyst.desktop",
-        "install -Dm755 run.sh /app/bin/run.sh"
+        "install -Dm644 icon-512x512.png -t /app/share/icons/hicolor/512x512/apps/",
+        "install -Dm644 org.eu.getcatalyst.Catalyst.appdata.xml -t /app/share/metainfo/",
+        "desktop-file-edit --set-name=Catalyst ${FLATPAK_DEST}/share/applications/catalyst.desktop",
+        "desktop-file-edit --set-key=Exec --set-value=/app/bin/run.sh ${FLATPAK_DEST}/share/applications/catalyst.desktop",
+        "install -Dm755 run.sh -t /app/bin/"
       ],
       "sources": [
         {
@@ -49,11 +49,11 @@
           "path": "org.eu.getcatalyst.Catalyst.appdata.xml"
         },
         {
+          "type": "script",
+          "dest-filename": "run.sh",
           "commands": [
             "zypak-wrapper /app/opt/catalyst/catalyst --ozone-platform-hint=auto"
-          ],
-          "dest-filename": "run.sh",
-          "type": "script"
+          ]
         }
       ]
     }
